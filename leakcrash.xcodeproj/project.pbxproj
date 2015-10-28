@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208979D41BDA6DFF00A3EC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208979D31BDA6DFF00A3EC8A /* AppDelegate.swift */; };
+		208979D61BDA6DFF00A3EC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208979D51BDA6DFF00A3EC8A /* Assets.xcassets */; };
+		208979D91BDA6DFF00A3EC8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208979D71BDA6DFF00A3EC8A /* MainMenu.xib */; };
+		F732441A7F2DA05D01A9D2E9 /* Pods_leakcrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FD332227D919A06BA1B7DF /* Pods_leakcrash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13FD332227D919A06BA1B7DF /* Pods_leakcrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_leakcrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208979D01BDA6DFF00A3EC8A /* leakcrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leakcrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208979D31BDA6DFF00A3EC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		208979D51BDA6DFF00A3EC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		208979D81BDA6DFF00A3EC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		208979DA1BDA6DFF00A3EC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFA91F321646276988AEC6E /* Pods-leakcrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leakcrash.release.xcconfig"; path = "Pods/Target Support Files/Pods-leakcrash/Pods-leakcrash.release.xcconfig"; sourceTree = "<group>"; };
+		3C24A506E17D2F361DFD862F /* Pods-leakcrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leakcrash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leakcrash/Pods-leakcrash.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208979CD1BDA6DFF00A3EC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F732441A7F2DA05D01A9D2E9 /* Pods_leakcrash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208979C71BDA6DFF00A3EC8A = {
+			isa = PBXGroup;
+			children = (
+				208979D21BDA6DFF00A3EC8A /* leakcrash */,
+				208979D11BDA6DFF00A3EC8A /* Products */,
+				64539DA70DE7866DC98E5D71 /* Pods */,
+				3B1CB7B35CDAB811B2CD8391 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		208979D11BDA6DFF00A3EC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208979D01BDA6DFF00A3EC8A /* leakcrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208979D21BDA6DFF00A3EC8A /* leakcrash */ = {
+			isa = PBXGroup;
+			children = (
+				208979D31BDA6DFF00A3EC8A /* AppDelegate.swift */,
+				208979D51BDA6DFF00A3EC8A /* Assets.xcassets */,
+				208979D71BDA6DFF00A3EC8A /* MainMenu.xib */,
+				208979DA1BDA6DFF00A3EC8A /* Info.plist */,
+			);
+			path = leakcrash;
+			sourceTree = "<group>";
+		};
+		3B1CB7B35CDAB811B2CD8391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FD332227D919A06BA1B7DF /* Pods_leakcrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64539DA70DE7866DC98E5D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C24A506E17D2F361DFD862F /* Pods-leakcrash.debug.xcconfig */,
+				3AFA91F321646276988AEC6E /* Pods-leakcrash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208979CF1BDA6DFF00A3EC8A /* leakcrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208979DD1BDA6DFF00A3EC8A /* Build configuration list for PBXNativeTarget "leakcrash" */;
+			buildPhases = (
+				0D8645E658E286463F0161D1 /* Check Pods Manifest.lock */,
+				208979CC1BDA6DFF00A3EC8A /* Sources */,
+				208979CD1BDA6DFF00A3EC8A /* Frameworks */,
+				208979CE1BDA6DFF00A3EC8A /* Resources */,
+				728C6EF5E969AF8150CEB8D6 /* Embed Pods Frameworks */,
+				146FAA409A52015C4D9D4C4F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leakcrash;
+			productName = leakcrash;
+			productReference = 208979D01BDA6DFF00A3EC8A /* leakcrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		208979C81BDA6DFF00A3EC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Vilea;
+				TargetAttributes = {
+					208979CF1BDA6DFF00A3EC8A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 208979CB1BDA6DFF00A3EC8A /* Build configuration list for PBXProject "leakcrash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 208979C71BDA6DFF00A3EC8A;
+			productRefGroup = 208979D11BDA6DFF00A3EC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208979CF1BDA6DFF00A3EC8A /* leakcrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208979CE1BDA6DFF00A3EC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208979D61BDA6DFF00A3EC8A /* Assets.xcassets in Resources */,
+				208979D91BDA6DFF00A3EC8A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8645E658E286463F0161D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		146FAA409A52015C4D9D4C4F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leakcrash/Pods-leakcrash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728C6EF5E969AF8150CEB8D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leakcrash/Pods-leakcrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208979CC1BDA6DFF00A3EC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208979D41BDA6DFF00A3EC8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		208979D71BDA6DFF00A3EC8A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208979D81BDA6DFF00A3EC8A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208979DB1BDA6DFF00A3EC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		208979DC1BDA6DFF00A3EC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		208979DE1BDA6DFF00A3EC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C24A506E17D2F361DFD862F /* Pods-leakcrash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = leakcrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.vilea.leakcrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		208979DF1BDA6DFF00A3EC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFA91F321646276988AEC6E /* Pods-leakcrash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = leakcrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.vilea.leakcrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208979CB1BDA6DFF00A3EC8A /* Build configuration list for PBXProject "leakcrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208979DB1BDA6DFF00A3EC8A /* Debug */,
+				208979DC1BDA6DFF00A3EC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208979DD1BDA6DFF00A3EC8A /* Build configuration list for PBXNativeTarget "leakcrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208979DE1BDA6DFF00A3EC8A /* Debug */,
+				208979DF1BDA6DFF00A3EC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 208979C81BDA6DFF00A3EC8A /* Project object */;
+}
